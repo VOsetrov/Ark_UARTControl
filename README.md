@@ -9,22 +9,22 @@ communication using an HM-10 module.
 
 ## Key Features
 
--Remote control of the boat using an Android app
--Servo motor for precise steering
--Water pump for propulsion
--Bluetooth communication for wireless control
--Arduino Nano for microcontroller capabilities
+- Remote control of the boat using an Android app
+- Servo motor for precise steering
+- Water pump for propulsion
+- Bluetooth communication for wireless control
+- Arduino Nano for microcontroller capabilities
 
 ## Hardware Components
 
--Arduino Nano microcontroller board
--SG90 servo motor for steering
--5V water pump
--Relay to control the water pump
--NPN bipolar transistor 2N2219
--HM-10 Bluetooth module for communication with the mobile app
--2x Lithium-ion batteries for power supply
--7805 voltage regulator to provide stable 5V power
+- Arduino Nano microcontroller board
+- SG90 servo motor for steering
+- 5V water pump
+- Relay to control the water pump
+- NPN bipolar transistor 2N2219
+- HM-10 Bluetooth module for communication with the mobile app
+- 2x Lithium-ion batteries for power supply
+- 7805 voltage regulator to provide stable 5V power
 
 ## Project Setup:
 
