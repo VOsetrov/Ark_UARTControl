@@ -1,13 +1,13 @@
-#Arduino Nano Boat Control Project (C Language)
+# Arduino Nano Boat Control Project (C Language)
 
-##Project Overview
+## Project Overview
 
 This project is a remote-controlled boat using an Arduino Nano and an Android 
 app. The boat is controlled by a servo motor for steering and a water pump for 
 propulsion. The Arduino receives commands from a mobile app via Bluetooth 
 communication using an HM-10 module.
 
-##Key Features
+## Key Features
 
 -Remote control of the boat using an Android app
 -Servo motor for precise steering
@@ -15,7 +15,7 @@ communication using an HM-10 module.
 -Bluetooth communication for wireless control
 -Arduino Nano for microcontroller capabilities
 
-##Hardware Components
+## Hardware Components
 
 -Arduino Nano microcontroller board
 -SG90 servo motor for steering
@@ -26,7 +26,7 @@ communication using an HM-10 module.
 -2x Lithium-ion batteries for power supply
 -7805 voltage regulator to provide stable 5V power
 
-##Project Setup:
+## Project Setup:
 
 	1. Servo Motor Connection:
 		- Connect the servo motor's signal wire to Arduino pin D9.
@@ -53,7 +53,7 @@ communication using an HM-10 module.
 		- Carry out according to your taste or following the drawings and 3D models.
 		(ark_ucon_drawings.pdf)
 
-##Software Setup:
+## Software Setup:
 	
 	1. Install avr-gcc and necessary dependencies:
 		- Follow the installation instructions for avr-gcc on your Linux system.
@@ -69,19 +69,19 @@ communication using an HM-10 module.
 		- Connect the Arduino Nano to your computer using a USB cable.
 		- Use a programmer tool avrdude. The command is 'make deploy'
 
-##Known Issues and Potential Improvements
+## Known Issues and Potential Improvements
 
 1. Boat Weight and Pump Performance:
 	- Issue: The initial boat design proved too heavy, causing the 5V water pump to 
 	be underpowered. The weight increased significantly when the electrical 
 	components were enclosed in a LEGO housing.
-	###Potentional Solutions:
-		1.1. Reduce boat weight: Explore weight-reduction techniques for the boat 
-				 structure and components.
-		1.2. Utilize two 5V pumps: Consider using two 5V pumps in parallel to provide 
-				 sufficient water propulsion.
+### Potentional Solutions:
+	- Reduce boat weight: Explore weight-reduction techniques for the boat 
+	structure and components.
+	- Utilize two 5V pumps: Consider using two 5V pumps in parallel to provide 
+	sufficient water propulsion.
 	
-##Disclaimer
+## Disclaimer
 
 This project is for educational purposes only. Please use caution when handling 
 electrical components and batteries. Always follow safety guidelines when working 
